@@ -1,6 +1,6 @@
 # 8.16
 # Put def average_weight(weights):  ... on line 3
-def average_weight(weights):
+
     avg_weight = sum(weights)
     avg_weight = avg_weight / len(weights)
     print("\nAverage weight: %0.2f"  % avg_weight)
